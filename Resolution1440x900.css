@@ -1,0 +1,41 @@
+body{
+    /*background-image: none;
+    background-color: red;*/
+	background-size: 1680px;
+}
+#Box{
+    width: 1500px;
+    height: 750px;
+}
+#BoxInfo{
+    width: 1500px;
+    height: 700px;
+}
+#BoxObject{
+    width: 250px;
+    height: 570px;
+}
+#BoxImgTxt{
+    width: 340px;
+    height: 570px;
+}
+#BoxImg{
+    width: 295px;
+    height: 292px;
+}
+#BoxTxt{
+    width: 291px;
+    height: 134px;
+}
+#Img{
+    width: 286px;
+    height: 286px;
+}
+#ImgInfoPlus{
+    width: 10px;
+    height: 10px
+}
+#ImgInfoPlus2{
+    width: 10px;
+    height: 10px
+}

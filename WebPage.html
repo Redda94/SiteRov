@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="GraphicOfTheWebPage.css" />
+        <link rel="stylesheet" media="screen and (min-width: 1400px) and (max-width: 1700px)" href="Resolution1440x900.css" />
+        <title>|ROVERv2|</title>
+    </head>
+
+    <body>
+    	<h1 id="Titre">|ROVERv2|</h1>
+    
+
+    <div id="Box">
+        <div id="BoxInfo">
+            <div id="BoxObject">
+
+                <button class="Btn" id="BChassis">Chassis</button>
+                <button class="Btn" id="BArduinoMega">Contrôlleur</button>
+                <button class="Btn" id="BMoteur">Moteurs</button>
+                <button class="Btn" id="BServomoteur">Servomoteurs</button>
+                <button class="Btn" id="BBatterie">Batterie</button>
+                <button class="Btn" id="BRPi">Raspberry pi</button>
+                <button class="Btn" id="BRPiCam">Raspberry pi Camera</button>
+                <button class="Btn" id="BESP">Module Wifi</button>
+                <button class="Btn" id="BCapteur">Capteurs</button>
+
+            </div>
+            <div id="BoxImgTxt">
+                <h2 id="name">
+                    
+                </h1>
+    	        <div>
+    		        <div id="BoxImg">
+                        <iframe id="Cam" src="http://192.168.0.31/" style="display: none;"></iframe>
+    			        <img id="Img">
+    		        </div>
+    	        </div>
+    	        <div>
+    		        <div id="BoxTxt">
+    			
+    		        </div>
+    	        </div>
+            </div>
+            <div id="BoxImgInfo">
+                <h3 id="Titre2">
+                    
+                </h3>
+                <img id="ImgInfoPlus">
+                <div id="BoxInfoTxt">
+                    
+                </div>
+            </div>
+
+            <div id="BoxImgInfo2">
+                <h3 id="Titre3">
+                    
+                </h3>
+                <img id="ImgInfoPlus2">
+                <div id="BoxInfoTxt2">
+                    
+                </div>
+            </div>
+            
+            
+            <div id="CapteurSerie">
+                <div class="capteurInfo">
+                    <img id="capteur1" class="capteur">
+                    <h4 class="TCapteur">Baromètre :<br>
+                        -température <br>
+                        -pression <br>
+                        -altimètre <br>
+                        </h4>
+                </div>
+                <div class="capteurInfo">
+                    <img id="capteur2" class="capteur">
+                    <h4 class="TCapteur">Radiations<br> Solaires :<br>
+                        -Ultraviolet
+                    </h4>
+                </div>
+                <div class="capteurInfo">
+                    <img id="capteur3" class="capteur">
+                    <h4 class="TCapteur">Luminosité </h4>
+                </div>
+                <div class="capteurInfo">
+                    <img id="capteur4" class="capteur">
+                    <h4 class="TCapteur">IMU 9DOF : <br>
+                        -Gyroscope <br>
+                        -Accéléromètre<br>
+                        -Magnétomètre<br>
+
+                    </h4>
+                </div>
+                
+                
+                
+                
+            </div>
+
+        </div>
+        <button id="BCommande">Contrôller</button>
+    </div>
+
+    <p id="TxtSpace2" style="display: none;">
+        En théorie si ce robot est dans l'espace ou sur Mars il seras en capacité de savoir ou il est selon les infos de ces capteurs.
+    </p>
+    <p id="TxtSpace" style="display: none;">
+        Il y'a au total 4 capteurs qui servent a ça qui sont le baromètre, le capteur uv, le capteur de luminosité et le capteur de position, d'accélérations, d'apesanteur et de champ magnétique(IMU 9DOF). 
+    </p>
+
+    <p id="TxtShieldGroveMega" style="display: none;">
+        Le shield Grove est une carte d'extension pour Arduino Mega.
+        L'objectif du shield Grove est de facilité la connection 
+        des broches d'entrée et de sortie Arduino Mega.</p>
+
+    <p id="TxtMotorShield" style="display: none;">
+        Le shield motor v2 a été crée pour donner les moyens les plus simple
+        afin commander des moteurs à courant continu, il facilite grandement
+        les projets de robotiques.
+    </p>
+
+    <p id="TxtRPiCam2" style="display: none;">
+        Il se connecte via un câble ruban au port CSI du Raspberry Pi et posséde
+        une vision nocturne a condition d'avoir des leds infrarouge.
+    </p>
+
+    <p id="TxtServoDriver" style="display: none;">
+        Les servomoteurs sont contrôlé et alimenté grâce au PWM Servo Driver
+        Le PWM Servo Driver est un circuit pouvant contrôler 16 servommoteurs
+        en même temps et sous une alimentation externe.
+    </p>
+
+    <p id="TxtCapteur" style="display: none;">
+        Un capteur est un dispositif transformant l'état d'une grandeur 
+        physique observée en une grandeur utilisable, 
+        telle qu'une tension électrique.
+        Dans nôtre cas les capteurs nous servent a detecter grossierement dans quel environement ils sont.
+    </p>
+
+    <p id="TxtChassis" style="display: none;">
+        Le chassis est un petit tank robotisé 
+        contenant une carrosserie en acier 
+        inoxydable de très grande taille et 
+        une variété de plaques auxiliaires 
+        pour le bricolage.</p>
+
+    <p id="TxtArd" style="display: none;">
+        Le Arduino Mega est une carte
+        microcontrôleur basé sur la ATmega2560.
+        Il possède 54 broches d’entrée/sortie 
+        numériques (dont 14 peuvent être utilisées 
+        en tant que sorties PWM).</p>
+
+    <p id="TxtMoteur" style="display: none;">
+        Ces moteurs éléctriques ont un systéme a 
+        engranages 9V et sont principalement
+        constitué d'aluminium, leurs haute puissance
+        leurs permettent de poussée de lourdes charges.</p>
+
+    <p id="TxtServomoteur" style="display: none;">
+        Un servomoteur est un moteur capable de maintenir 
+        une opposition à un effort statique et dont la 
+        position est vérifiée en continu et 
+        corrigée en fonction de la mesure.
+        Dans nôtre cas ils nous servent a animé la caméra et
+        une barre clouté faisant office de moyen de défence.
+    </p>
+
+    <p id="TxtBatterie" style="display: none;">
+        Cette batterie rechargeable est une lithium
+        12v 8Ah et est spécialement conçu pour
+        alimenter les dispositif de système qui utilisent
+        12V d'alimentation en courant continu ou moins.</p>
+
+    <p id="TxtRPi" style="display: none;">
+        Le Raspberry Pi est un ordinateur de la taille
+        d'une carte de crédit pouvant être connecté
+        à un écran d'ordinateur ou à un téléviseur.
+        Il utilise un clavier et une souris standard.
+        Dans notre cas il sert de seuveur web pour 
+        transmettre les images vidèos de sa caméra.</p>
+
+    <p id="TxtRPiCam" style="display: none;">
+        Le module caméra Raspberry Pi peut être utilisé
+        pour prendre des vidéos haute définition,
+        ainsi que des photographies.</p>
+    
+    <p id="TxtESP" style="display: none;">
+        Le Grove-UART WiFi est un module émetteur-récepteur
+        série doté du microcontrolleur ESP8266.
+        Grâce à la pile de protocoles TCP/IP intégrée,
+        ce module permet à votre micro-contrôleur d'interagir
+        avec les réseaux WiFi avec seulement quelques lignes de code.</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.js" ></script>
+    <script src="jquery-ui-1.12.1.custom/Jquery-ui.js" ></script>
+    <script src="jquery.websocket.js"></script>
+    
+    </body>
+</html>

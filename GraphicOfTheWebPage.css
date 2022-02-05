@@ -1,0 +1,362 @@
+body{
+    background-image: url("Img/fond/digitalb.jpg");
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    height: 500px;
+    width: 500px;
+    
+}
+#Titre{
+	text-align: center; 
+    color: deepskyblue; 
+    border: 3px deepskyblue double;
+    font-size: 40px; 
+    text-shadow: 2px 0 0 gold, 2px 2px 0 silver, 0 2px 0 gold, -2px 2px 0 silver, -2px 0 0 gold, -2px -2px 0 silver, 0 -2px 0 gold, 2px -2px 0 silver;
+}
+
+#ObjectTitle{
+    font-size: 30px;
+    color: gold;
+    text-align: center;
+} 
+
+#Cam{
+    height: 0px;
+    width: 0px;
+}
+#name{
+    font-size: 30px;
+    color: none;
+
+    height: 40px;
+    width: 330px;
+    text-align: center;
+    /*border: 5px green inset;
+    -webkit-border-radius: 10px*/
+    text-shadow: 2px 0 0 silver, 2px 2px 0 silver, 0 2px 0 silver, -2px 2px 0 silver, -2px 0 0 silver, -2px -2px 0 silver, 0 -2px 0 silver, 2px -2px 0 silver;
+    
+}
+
+.Btn{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+
+    box-shadow: 30px 30px 50px black;
+
+    transition-property: background-color;
+    transition-duration: 0s;
+
+    border: 3px deepskyblue inset;
+    -webkit-border-radius: 20px
+}
+
+
+
+.Btn:hover{
+    animation: animation 0.5s;
+}
+.Btn:active{
+    background-color: white;
+}
+/*#BCapteur{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+
+    border: 5px silver double;
+    -webkit-border-radius: 10px
+}
+#BCapteur:hover{
+    animation: animation 0.5s;
+}*/
+#BCommande{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+
+    border: 5px gold double;
+    -webkit-border-radius: 10px;
+}
+#BCommande:hover{
+    animation: animation 0.5s;
+}
+.capteurInfo{
+    width: 250px;
+    height: 120px;
+    display: flex;
+    
+    align-items: right;
+    justify-content: space-around;
+
+    /*border: 5px gold double;
+    -webkit-border-radius: 10px*/
+}
+h4{
+    color: black;
+    width: 110px;
+}
+
+#CapteurSerie{
+    margin-left: auto;
+
+    width: 250px;
+    height: 615px;
+    /*border: 10px red inset;
+    -webkit-border-radius: 10px;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.capteur{
+    
+    width: 5px;
+    height: 5px;
+
+
+
+    border: 2px silver inset;
+    -webkit-border-radius: 10px;
+}
+
+/*#capteur1{
+    background-image: url('Img/Barometre.jpg');
+}*/
+
+
+#Box{
+	width: 1700px;
+	height: 750px;
+
+	/*border: 10px black inset;
+    -webkit-border-radius: 10px;*/
+
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: auto;
+    margin-top: auto;
+    align-items: center;
+}
+#BoxInfo{
+	width: 1700px;
+	height: 750px;
+    
+	/*border: 5px green inset;
+    -webkit-border-radius: 10px    */
+
+
+    display: flex;
+    align-items: center;
+}
+#BoxObject{
+	width: 250px;
+	height: 600px;
+
+	/*border: 5px green inset;
+    -webkit-border-radius: 10px;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#BoxImgTxt{
+    width: 450px;
+    height: 730px;
+    border: 2px deepskyblue inset;
+    -webkit-border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: rgba(0,0,100,0.5);
+    box-shadow: 30px 30px 50px black;
+
+}
+
+#BoxImg{
+	width: 390px;
+	height: 400px;
+    margin-top: 10px;
+	border: 6px gold double;
+
+    -webkit-border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#BoxTxt{
+	width: 390px;
+	height: 180px;
+
+	border: 2px gray inset;
+    -webkit-border-radius: 10px;
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    background-color: black;
+}
+#ImgInfoPlus{
+    margin-top: 0px;
+    width: 10px;
+    height: 10px;
+
+    background-color: white;
+    border: 5px deepskyblue inset;
+    -webkit-border-radius: 40px;
+}
+#BoxImgInfo{
+    margin-top: 0px;
+    margin-left: 10px;
+
+    width: auto;
+    height: 570px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*background-color: white;
+    border: 5px deepskyblue inset;*/
+}
+#BoxImgInfo2{
+    margin-top: 0px;
+    margin-left: 10px;
+
+    width: auto;
+    height: 570px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*background-color: white;
+    border: 5px deepskyblue inset;*/
+}
+#Titre2{
+    margin-top: 30px;
+    font-size: 30px;
+    color: none;
+
+    height: 40px;
+    width: 0px;
+    color: black;
+    text-align: center;
+
+    text-shadow: 2px 0 0 silver, 2px 2px 0 silver, 0 2px 0 silver, -2px 2px 0 silver, -2px 0 0 silver, -2px -2px 0 silver, 0 -2px 0 silver, 2px -2px 0 silver;
+    
+    /*background-color: white;
+    border: 5px deepskyblue inset;*/
+}
+#Titre3{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color: black;
+
+    height: 40px;
+    width: 0px;
+    text-align: center;
+    text-shadow: 2px 0 0 silver, 2px 2px 0 silver, 0 2px 0 silver, -2px 2px 0 silver, -2px 0 0 silver, -2px -2px 0 silver, 0 -2px 0 silver, 2px -2px 0 silver;
+    
+    /*background-color: white;
+    border: 5px deepskyblue inset;*/
+}
+#BoxInfoTxt{
+    margin-top: 30px;
+    height: 10px;/*120*/
+    width: 10px;/*250*/
+
+    background-color: black;
+    border: 5px deepskyblue inset;
+    -webkit-border-radius: 5px;
+    text-align: center;
+}
+#BoxInfoTxt2{
+    margin-top: 30px;
+    height: 10px;/*120*/
+    width: 10px;/*250*/
+
+    background-color: black;
+    border: 5px deepskyblue inset;
+    -webkit-border-radius: 5px;
+    text-align: center;
+}
+
+#ImgInfoPlus2{
+    margin-top: 0px;
+    width: 10px;
+    height: 10px;
+
+    background-color: white;
+    border: 5px deepskyblue inset;
+    -webkit-border-radius: 40px;
+}
+
+#Img{
+    margin: auto;
+    width: 390px;
+    height: 390px;
+
+    border: 2px white inset;
+    -webkit-border-radius: 10px;
+}
+/*p{
+    margin: auto;
+}*/
+
+@keyframes animation {
+    /*0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }*/
+    10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+    transform: translate3d(4px, 0, 0);
+    }
+}
